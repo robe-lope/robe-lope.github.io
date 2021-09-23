@@ -1,0 +1,23 @@
+nav{
+	    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;	
+}
+ol{
+	    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+	display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+#content {
+background: rgb(6,10,63);
+background: linear-gradient(180deg, rgba(6,10,63,1) 0%, rgba(43,89,95,0.9575054725904143) 100%);
+}
