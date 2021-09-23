@@ -2,6 +2,7 @@ nav{
 	    display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;	
+    color: #ccd6f6;
 }
 ol{
 	    list-style: none;
@@ -17,7 +18,14 @@ ol{
     -webkit-box-align: center;
     align-items: center;
 }
-#content {
-background: rgb(6,10,63);
-background: linear-gradient(180deg, rgba(6,10,63,1) 0%, rgba(43,89,95,0.9575054725904143) 100%);
+body {
+background-size: cover;
+background: rgb(38,52,119);
+background: radial-gradient(circle, rgba(38,52,119,1) 0%, rgba(6,9,51,1) 52%);
+}
+#content h2, p{
+    color: #ccd6f6;
+}
+#content h3{
+    color: #5ceacb;
 }
